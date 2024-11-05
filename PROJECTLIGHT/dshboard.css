@@ -1,0 +1,170 @@
+/* DASHBORD HEADER */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;  /* Prevents scrolling */
+    margin: 0;  /* Removes any default margins */
+    scroll-behavior: none; /* Optional: Disables smooth scrolling behavior */
+}
+ header{
+    background-color: white;
+    height: 15vh;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+ }
+.logoutbtn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;
+    border: 1px solid #f28a0a;
+    width: 50%;
+    position: relative;
+    left: 90%;
+   top: 30px;
+   padding: 5px;
+}
+.logoutbtn:hover{
+    color: white;
+    background-color: #f28a0a;
+}
+
+.dwelcome{
+color: #f28a0a;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;
+position: absolute;
+top: 20px;
+left: 38%;
+}
+
+.logo{
+    font-size: 4px;
+
+}
+.logo img{
+   position: absolute;
+   width: 170px;
+  top: -10px;
+
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+/* NAVBAR */
+.navbar{
+    background-color: #f28a0a;
+    width: 12%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    height: 480px;
+    margin: 3px;
+}
+.navitems{
+   padding: 23px 0px;
+   text-align: center;
+align-items: center;
+}
+
+.navlinks{
+color: black;
+justify-content:space-between ;
+
+}
+
+.navitems:hover{
+    background-color: white;
+}
+ 
+.navitems:hover{
+    color: #f28a0a;
+    background-color: white;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+
+
+/* FLEXBOX */
+.flexboxes{
+    display: flex;
+    flex-direction: row;
+    margin-left: 390px;
+    margin-right: auto;
+    margin-bottom: 589%;
+    margin-top: -480px;
+    
+   
+} 
+
+.flexbox{
+    text-align: center;
+    display: flex;
+    color: white;
+    background-color:  #f28a0a ;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    margin: 7px;
+    gap: 195px;
+    align-items: center;
+    height: 17vh;
+    width: 25%;
+}
+.description{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+
+   
+  
+}
+#icons{
+    color: white;
+    font-size: 65px;
+    margin-left: 12px;
+    margin-top: 23px;
+}
+ .fboxcontent {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.graphs {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 10px; /* Added padding for better spacing */
+    border: 1px solid #e0e0e0; /* Light border around graphs */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+canvas {
+    max-width: 600px; /* Set a max width for the graphs */
+    max-height: 400px; /* Set a max height for the graphs */
+    width: 100%; /* Make canvas responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners */
+}
+canvas {
+    width: 600px; /* Set a fixed width for debugging */
+    height: 400px; /* Set a fixed height for debugging */
+}
+

@@ -1,0 +1,12 @@
+Array
+(
+    [productId] => B6238
+    [productName] => captain morgan
+    [productCategory] => beer
+    [productQuantity] => 8
+    [productPrice] => 12340
+    [pricePerBottle] => 750
+    [employeeInCharge] => A704451
+    [dateAdded] => 10/18/2024
+    [timeAdded] => 8:56:53 PM
+)
